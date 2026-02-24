@@ -1578,3 +1578,13 @@ ol.nested>li:before {
     max-width: 100%;
   }
 }
+
+.menu {
+    background: linear-gradient(
+        90deg,
+        rgba(49, 200, 185, 0.85),
+        rgba(180, 244, 239, 0.85)
+    );
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
