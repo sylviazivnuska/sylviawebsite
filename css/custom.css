@@ -64,3 +64,8 @@
 .split-section h2 {
   color: white;
 }
+
+.profile-img {
+  width: 50px;      /* adjust size here */
+  height: auto;      /* keeps proportions */
+}

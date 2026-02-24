@@ -481,8 +481,8 @@ hr {
 
 .image img,
 .image video {
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 50%;
   box-sizing: border-box;
   display: table-cell;
   overflow: hidden;
@@ -501,14 +501,14 @@ hr {
 }
 
 .image-caption {
-  width: 100%;
+  width: 50%;
   text-align: center;
   margin-top: -10px;
   margin-bottom: 10px;
 }
 
 .max-width-400 {
-  max-width: 400px;
+  max-width: 10px;
 }
 
 .max-width-140 {
@@ -785,8 +785,8 @@ ol.nested>li:before {
   width: 100%;
   background-image: url(../img/loading.gif);
   background-repeat: no-repeat;
-  background-size: 30px 30px;
-  background-position: center;
+  background-size: 10px 10px;
+  background-position: left;
   min-height: 50px;
 }
 
