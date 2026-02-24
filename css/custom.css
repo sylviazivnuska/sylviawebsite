@@ -56,3 +56,11 @@
   position: relative;
   z-index: 1;
 }
+
+.split-section {
+  color: white;
+}
+
+.split-section h2 {
+  color: white;
+}
