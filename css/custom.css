@@ -32,3 +32,27 @@
   display: none;
   color: #007bff;
 }
+
+.split-section{
+  position: relative;
+  overflow: hidden;
+}
+
+.split-section::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(49, 200, 185, 0.85),
+    rgba(180, 244, 239, 0.85)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  z-index: 0;
+}
+
+.split-section > *{
+  position: relative;
+  z-index: 1;
+}
